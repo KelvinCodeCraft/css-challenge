@@ -33,7 +33,7 @@ body{
     font-family: 'Montserrat';
     font-weight: 500;
     font-size: 20px;
-    margin: 0px 0px 0px 70px;
+    margin: 0px 0px 0px 90px;
 }
 
 ul{
@@ -70,4 +70,44 @@ a {
     text-decoration: none;
     cursor: pointer;
     font-weight: 400;
+}
+
+.we-ensure{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 50px;
+    height: 75%;
+    text-align: center;
+    width: 35%;
+    margin: auto;
+}
+.we-ensure h1{
+    font-weight: 800;
+    font-size: 50px;
+}
+.we-ensure h3{
+    font-weight: 400;
+    font-size: 18px;
+}
+.buttons button{
+    padding: 15px 30px 15px 30px;
+    background-color: rgba(35,166,240,255);
+    border:none;
+    border-radius: 30px;
+    font-weight: 400;
+    margin: 0px 10px 0px 0px;
+    color: white;
+    cursor: pointer;
+}
+.buttons input[type="button"]{
+    padding: 15px 30px 15px 30px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 30px;
+    font-weight: 400;
+    color: white;
+    cursor: pointer;
 }
